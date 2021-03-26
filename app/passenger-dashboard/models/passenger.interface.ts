@@ -4,12 +4,8 @@ export interface Passenger {
   fullname: string,
   checkedIn: boolean,
   checkInDate?: number;
-  children?: Child[] 
+  baggage: string
 
 
 }
 
-export interface Child {
-  name: string,
-  age: number;
-}
